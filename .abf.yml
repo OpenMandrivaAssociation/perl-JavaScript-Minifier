@@ -1,2 +1,4 @@
+removed_sources:
+  JavaScript-Minifier-1.05.tar.gz: 01564bdd2a3605b685ef80d8e3f5715202570561
 sources:
-  "JavaScript-Minifier-1.05.tar.gz": 01564bdd2a3605b685ef80d8e3f5715202570561
+  JavaScript-Minifier-1.11.tar.gz: 03b84c399c1753fefd87fa88ef4b68ffee52d3b8

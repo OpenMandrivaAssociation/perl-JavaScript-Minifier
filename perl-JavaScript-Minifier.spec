@@ -1,15 +1,15 @@
 %define upstream_name    JavaScript-Minifier
-%define upstream_version 1.05
+%define upstream_version 1.11
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Perl extension for minifying JavaScript code
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/JavaScript/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/JavaScript/JavaScript-Minifier-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -57,4 +57,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sun Sep 11 2011 Luis Daniel Lucio Quiroz <dlucio@mandriva.org> 1.50.0-1mdv2011.0
 + Revision: 699423
 - import perl-JavaScript-Minifier
+
 
